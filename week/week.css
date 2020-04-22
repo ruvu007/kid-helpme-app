@@ -8,17 +8,15 @@
 
 .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    margin-top: 50px;
+    width: 45%;
+    margin-top: 30px;
 }
 
 h2 {
     color: gray;
     font-size: xx-large;
-    margin-left: 40px;
-    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 7px;
 }
 
 .loginbtn {
@@ -47,10 +45,6 @@ h2 {
     text-align: right;
 }
 
-.wave {
-    margin-top: 124px;
-}
-
 form {
     text-align: center;
     margin-top: 50px;
@@ -64,5 +58,52 @@ input {
 }
 
 p {
+    color: black;
+}
+
+.profielfoto {
+    width: 30%;
+    float: right;
+    margin-top: -190px;
+    margin-right: 25px;
+}
+
+.signout {
+    float: right;
+    margin-top: -43px;
+    margin-right: 25px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.dagov {
+    border: 1px solid black;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 15px;
+}
+
+.weekov {
+    border: 1px solid black;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.taak {
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.tijd {
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
     color: black;
 }
